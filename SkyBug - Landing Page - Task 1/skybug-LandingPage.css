@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    display: block;
+}
+
+.header-1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 3.5px solid blueviolet;
+}
+
+.header-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.left-heading{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    margin-top: 17px;
+}
+
+.header-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.section:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.section-1{
+    width: 105px;
+    height: 35px;
+    background: blueviolet;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+    margin-top: 16px;
+}
+
+.section-1:hover{
+    background: black;
+    color: white;
+}
+.parent{
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: block;
+    margin-top: 80px;
+}
+
+.parent-1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.child-1{
+    width:50%;
+    height: 100%;
+    display: block;
+}
+
+.first-line{
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: blueviolet;
+    margin-left: -2px;
+}
+
+.second-line{
+    width: 100%;
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    color: blueviolet;
+    margin-left: -4px;
+}
+
+.third-line{
+    width: 100%;
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    color: blueviolet;
+    margin-left: -4px;
+}
+
+.paragraph{
+    width: 100%;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+}
+
+.child-1-1{
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.mail{
+    padding: 12px;
+    width: 70%;
+    height: 45px;
+    background: white;
+    border: 0px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: blueviolet;
+}
+
+.button{
+    width: 30%;
+    height: 45px;
+    border: 0px;
+    background-color:blueviolet;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+
+.child-2{
+    width:50%;
+    height: 90%;
+    display: block;
+}
+
+.child-2-2{
+    width: 75%;
+    height: 100%;
+    display: block;
+    float: right;
+    background-color: blueviolet;
+    padding-top: 40px;
+}
+
+.landing-img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: blueviolet;
+    display: block;
+}
+
+.footer-1{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: 22px;
+}
